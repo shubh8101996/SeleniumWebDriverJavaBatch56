@@ -13,6 +13,8 @@ public class ScriptFirst {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://chromedriver.chromium.org/downloads");
 		
+		
+		driver.close();
 
 	}
 
